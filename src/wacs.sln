@@ -92,7 +92,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wacs.validation.dns.referen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wacs.validation.dns.webnames", "plugin.validation.dns.webnames\wacs.validation.dns.webnames.csproj", "{75AE5866-4060-4D62-98AF-CBE801F6E089}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wacs.validation.dns.joker", "wacs.validation.dns.joker\wacs.validation.dns.joker.csproj", "{ADE673E2-4855-4DAD-AA56-9A7816E5E958}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wacs.validation.dns.joker", "plugin.validation.dns.joker\wacs.validation.dns.joker.csproj", "{ADE673E2-4855-4DAD-AA56-9A7816E5E958}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
