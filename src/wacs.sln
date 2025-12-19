@@ -92,6 +92,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wacs.validation.dns.referen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wacs.validation.dns.webnames", "plugin.validation.dns.webnames\wacs.validation.dns.webnames.csproj", "{75AE5866-4060-4D62-98AF-CBE801F6E089}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wacs.validation.dns.joker", "wacs.validation.dns.joker\wacs.validation.dns.joker.csproj", "{ADE673E2-4855-4DAD-AA56-9A7816E5E958}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -356,6 +358,12 @@ Global
 		{75AE5866-4060-4D62-98AF-CBE801F6E089}.Release|Any CPU.Build.0 = Release|Any CPU
 		{75AE5866-4060-4D62-98AF-CBE801F6E089}.ReleaseTrimmed|Any CPU.ActiveCfg = Release|Any CPU
 		{75AE5866-4060-4D62-98AF-CBE801F6E089}.ReleaseTrimmed|Any CPU.Build.0 = Release|Any CPU
+		{ADE673E2-4855-4DAD-AA56-9A7816E5E958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE673E2-4855-4DAD-AA56-9A7816E5E958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE673E2-4855-4DAD-AA56-9A7816E5E958}.DebugTrimmed|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE673E2-4855-4DAD-AA56-9A7816E5E958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE673E2-4855-4DAD-AA56-9A7816E5E958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE673E2-4855-4DAD-AA56-9A7816E5E958}.ReleaseTrimmed|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
