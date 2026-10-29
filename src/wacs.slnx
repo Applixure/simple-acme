@@ -99,6 +99,10 @@
       <BuildType Solution="DebugTrimmed|*" Project="Debug" />
       <BuildType Solution="ReleaseTrimmed|*" Project="Release" />
     </Project>
+    <Project Path="plugin.validation.dns.joker/wacs.validation.dns.joker.csproj">
+      <BuildType Solution="DebugTrimmed|*" Project="Debug" />
+      <BuildType Solution="ReleaseTrimmed|*" Project="Release" />
+    </Project>
     <Project Path="plugin.validation.dns.level27/wacs.validation.dns.level27.csproj">
       <BuildType Solution="DebugTrimmed|*" Project="Debug" />
       <BuildType Solution="ReleaseTrimmed|*" Project="Release" />
