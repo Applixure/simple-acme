@@ -10,5 +10,8 @@ namespace PKISharp.WACS.Plugins.ValidationPlugins
 
         [CommandLine(Description = "OPTIONAL: ID of zone the record is associated with.")]
         public string? HetznerZoneId { get; set; }
+
+        [CommandLine(Description = "Deprecated: This option is ignored. The Hetzner DNS validation plugin only supports the current Hetzner Cloud DNS API.", Obsolete = true)]
+        public bool UseHetznerCloud { get; set; }
     }
 }

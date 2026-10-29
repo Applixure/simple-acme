@@ -66,6 +66,7 @@ namespace PKISharp.WACS.Host
                 _ = builder.RegisterType<AutofacBuilder>().As<IAutofacBuilder>().SingleInstance();
                 _ = builder.RegisterType<AccountManager>().SingleInstance();
                 _ = builder.RegisterType<AcmeClientManager>().SingleInstance();
+                _ = builder.RegisterType<AcmeCredentialReader>().SingleInstance();
                 _ = builder.RegisterType<NetworkCheckService>().SingleInstance();
                 _ = builder.RegisterType<ZeroSsl>().SingleInstance();
                 _ = builder.RegisterType<OrderManager>().InstancePerLifetimeScope();
@@ -78,6 +79,11 @@ namespace PKISharp.WACS.Host
                 _ = builder.RegisterType<DueDateStaticService>().SingleInstance();
                 _ = builder.RegisterType<DueDateRuntimeService>().SingleInstance();
                 _ = builder.RegisterType<SecretServiceManager>().SingleInstance();
+#if LINUX
+                _ = builder.RegisterType<KestrelSelfHosterFactory>().As<ISelfHosterFactory>().SingleInstance();
+#else
+                _ = builder.RegisterType<HttpListenerFactory>().As<ISelfHosterFactory>().SingleInstance();
+#endif
                 if (OperatingSystem.IsWindows())
                 {
                     _ = builder.RegisterType<TaskSchedulerService>().As<IAutoRenewService>().SingleInstance();
